@@ -1,0 +1,12 @@
+{% assign dates = site.posts | group_by_exp: "post", "post.date  | date: '%Y/%m'" | sort: "name" | reverse %}
+
+{%- if categories.size > 0 -%}
+  <aside class="widget">
+    <h4 class="widget-title">Archiwa</h4>
+    <ol class="item-list">
+      {% for date in dates %}
+        <li class="item"><a href="/date/{{ date.name }}">{{ date.name | date: "%B %Y" }}</a>&nbsp;({{ date.size }})</li>
+      {% endfor %}
+    </ol>
+  </aside>
+{% endif %}

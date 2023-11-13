@@ -1,0 +1,83 @@
+---
+layout: base
+---
+
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="post-meta">
+      <span>
+        <i class="fa-regular fa-user"></i> {{ site.author }}
+      </span>
+      &nbsp;
+      <time class="post-published">
+        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+        <i class="fa-regular fa-calendar"></i> {{ page.date | date: date_format }}
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content | markdownify }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-footer-term">
+      {% if page.categories.size > 0 %}
+        <span class="term-icon"><i class="fa fa-folder-open"></i></span>
+        {%- for category in page.category -%}
+          {% if forloop.index < page.category.size %}
+            <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>,
+          {% else %}
+            <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>
+          {% endif %}
+        {%- endfor -%}
+      {% endif %}
+
+      &nbsp;&nbsp;&nbsp;
+
+      {% if page.tags.size > 0 %}
+        <span class="term-icon"><i class="fa fa-tags"></i></span>
+        {%- for tag in page.tags -%}
+          {% if forloop.index < page.tags.size %}
+            <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>,
+          {% else %}
+            <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>
+          {% endif %}
+        {%- endfor -%}
+      {% endif %}
+    </div>
+  </footer>
+</article>
+
+<nav class="post-navigation" aria-label="Nawigacja wpisu">
+  <div class="nav-links row">
+    <div class="nav-previous col text-start">
+      {%- for post in site.posts -%}
+        {% if page == post %}
+          {%- assign show_previous_post = true -%}
+        {% endif %}
+
+        {% if page != post and show_previous_post %}
+          <a href="{{ post.url | relative_url }}" rel="prev">
+            <span class="meta-nav"><i class="fa fa-angle-double-left"></i></span> {{ post.title }}
+          </a>
+          {%- assign show_previous_post = false -%}
+        {% endif %}
+      {%- endfor -%}
+    </div>
+
+    <div class="nav-next col text-end">
+      {%- for post in site.posts -%}
+        {% if page == post and next_post %}
+            <a href="{{ next_post.url | relative_url }}" rel="next">
+              {{ next_post.title }} <span class="meta-nav"><i class="fa fa-angle-double-right"></i></span>
+            </a>
+        {% endif %}
+        {%- assign next_post = post -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</nav>

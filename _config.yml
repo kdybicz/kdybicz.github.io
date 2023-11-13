@@ -1,0 +1,70 @@
+title: Java I/O
+author: Kamil Dybicz
+email: kamil.dybicz@avosoftware.com
+description: …czyli z Javą na co dzień
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.javaio.net" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username: kdybicz
+linkedin_username: kamildybicz
+
+timezone: "Europe/Warsaw"
+
+date_format: "%d %B %Y"
+
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+excerpt_separator: <!--more-->
+
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    month: '/date/:year/:month/'
+    tag: '/tag/:name/'
+
+paginate: 6
+paginate_path: "/page/:num/"
+
+header_pages:
+  - index.html
+  - about.markdown
+  - projects.markdown
+  - links.markdown
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: base
+
+plugins:
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+exclude:
+  - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - Makefile

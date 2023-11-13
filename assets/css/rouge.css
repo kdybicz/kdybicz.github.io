@@ -1,0 +1,23 @@
+@import "github.css";
+
+.highlight .rouge-table {
+  color: #939393;
+  border-radius: 8px;
+  border: solid 1px #e0e0e0;
+}
+
+.highlight .rouge-gutter {
+  background-color: #f9f9f9;
+  border-right: solid 1px #e0e0e0;
+  border: solid 1px #e0e0e0;
+}
+
+.highlight .lineno {
+  padding-right: 8px;
+  text-align: right;
+  width: 45px;
+}
+
+.highlight .rouge-code {
+  padding-left: 10px;
+}

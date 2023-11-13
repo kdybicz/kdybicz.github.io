@@ -1,0 +1,12 @@
+{% assign categories = site.categories %}
+
+{%- if categories.size > 0 -%}
+  <aside class="widget">
+    <h4 class="widget-title">Kategorie</h4>
+    <ol class="item-list">
+      {% for category in categories %}
+        <li class="item"><a href="/category/{{ category[0] }}">{% translate key: {{ category[0] }} %}</a> ({{ category[1].size }})</li>
+      {% endfor %}
+    </ol>
+  </aside>
+{% endif %}
