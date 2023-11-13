@@ -1,7 +1,8 @@
 title: Java I/O
+sub_title: …czyli z Javą na co dzień
 author: Kamil Dybicz
 email: kamil.dybicz@avosoftware.com
-description: …czyli z Javą na co dzień
+description: Java I/O jest stroną poświęconą głównie programowaniu w Javie oraz wszystkiemu, co może mieć z Javą jakiś związek.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.javaio.net" # the base hostname & protocol for your site, e.g. http://example.com
