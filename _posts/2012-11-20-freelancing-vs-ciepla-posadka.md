@@ -18,11 +18,14 @@ Takich artykułów pewnie widzieliście już pewnie z kilkanaście, więc czemu 
 
 Myślisz o zostaniu freelancerem? Jak to ładnie brzmi: *Być na swoim!* Czy będzie dalej tak ładnie, gdy już zacznę pracę na swoje własne konto, dowiem się już niedługo. Aktualnie mam zarejestrowaną firmę i czekam już tylko, aż skończy się okres wypowiedzenia w mojej aktualnej pracy. Wtedy dopiero, będę mógł rozpocząć pracę na kontrakt, który de facto mam już podpisany.
 
-> #### *Komentarz z 01 lipca 2014:*
->
-> Czas i rzeczywistość zweryfikowały nieco poprawność starej wersji poniższego tekstu. Dlatego też podjąłem się poprawienia i aktualizacji niektórych oraz dodania kilku nowych informacji. Mam nadzieję, że artykuł na tym tylko zyskał.
->
-> Jeśli zaś idzie o zadowolenie z pracy na kontrakcie, to po niecałych 2 latach takiej właśnie pracy mogę stwierdzić, że z całą pewnością było warto. Szczególnie, że przeprowadziłem się do Poznania, gdzie rynek pracy jest naprawdę bogaty i jest w czym wybierać, jeśli tylko ma się coś do zaoferowania w zamian.
+---
+##### <ins>Komentarz z 01 lipca 2014:</ins>
+
+Czas i rzeczywistość zweryfikowały nieco poprawność starej wersji poniższego tekstu. Dlatego też podjąłem się poprawienia i aktualizacji niektórych oraz dodania kilku nowych informacji. Mam nadzieję, że artykuł na tym tylko zyskał.
+
+Jeśli zaś idzie o zadowolenie z pracy na kontrakcie, to po niecałych 2 latach takiej właśnie pracy mogę stwierdzić, że z całą pewnością było warto. Szczególnie, że przeprowadziłem się do Poznania, gdzie rynek pracy jest naprawdę bogaty i jest w czym wybierać, jeśli tylko ma się coś do zaoferowania w zamian.
+
+---
 
 #### Od czego warto zacząć?
 
