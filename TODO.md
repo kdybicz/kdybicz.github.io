@@ -14,4 +14,5 @@
 - [ ] date translations
 - [x] not needed - hide post footer if no category nor tag
 - [x] ACTA video fix
+- [ ] Remove static robots.txt
 - [ ] Remove TODO.md
