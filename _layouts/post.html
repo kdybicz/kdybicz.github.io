@@ -55,29 +55,19 @@ layout: base
 <nav class="post-navigation" aria-label="Nawigacja wpisu">
   <div class="nav-links row">
     <div class="nav-previous col text-start">
-      {%- for post in site.posts -%}
-        {% if page == post %}
-          {%- assign show_previous_post = true -%}
-        {% endif %}
-
-        {% if page != post and show_previous_post %}
-          <a href="{{ post.url | relative_url }}" rel="prev">
-            <span class="meta-nav"><i class="fa fa-angle-double-left"></i></span> {{ post.title }}
-          </a>
-          {%- assign show_previous_post = false -%}
-        {% endif %}
-      {%- endfor -%}
+      {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" rel="prev">
+          <span class="meta-nav"><i class="fa fa-angle-double-left"></i></span> {{ page.previous.title }}
+        </a>
+      {% endif %}
     </div>
 
     <div class="nav-next col text-end">
-      {%- for post in site.posts -%}
-        {% if page == post and next_post %}
-            <a href="{{ next_post.url | relative_url }}" rel="next">
-              {{ next_post.title }} <span class="meta-nav"><i class="fa fa-angle-double-right"></i></span>
-            </a>
+        {% if page.next %}
+          <a href="{{ page.next.url | relative_url }}" rel="next">
+            {{ page.next.title }} <span class="meta-nav"><i class="fa fa-angle-double-right"></i></span>
+          </a>
         {% endif %}
-        {%- assign next_post = post -%}
-      {%- endfor -%}
     </div>
   </div>
 </nav>
