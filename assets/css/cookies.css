@@ -1,9 +1,10 @@
-#cookie-banner {
-  position: fixed;
+.cookie-banner {
+  border-radius: 0;
   bottom: 0;
+  box-shadow: 0 -1px 10px 0 rgba(172, 171, 171, 0.3);
+  display: none;
   left: 0;
+  position: fixed;
   width: 100%;
   z-index: 999;
-  border-radius: 0;
-  display: none;
 }
