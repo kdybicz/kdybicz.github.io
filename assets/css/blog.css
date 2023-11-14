@@ -29,9 +29,6 @@
   --io-widget-link-hover-color: var(--io-primary-color);
 }
 
-.w-70 {
-  width: 70%!important;
-}
 
 /*
  * Main styles
@@ -49,6 +46,10 @@ a {
 
 a:hover {
   color: var(--io-link-hover-color);
+}
+
+.w-70 {
+  width: 70%!important;
 }
 
 
