@@ -17,7 +17,7 @@ jboss: JBoss
 jrebel: JRebel
 log4j: Log4j
 netbeans: NetBeans
-obfuscation: 
+obfuscation: Obfuskacja
 other: Inne
 security: Bezpieczeństwo
 spring: Spring

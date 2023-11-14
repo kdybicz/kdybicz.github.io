@@ -15,7 +15,7 @@ modified: 2010-05-17 08:01:08 +00:00
 
 Okazuje się, co jest dla mnie miłym zaskoczeniem, że KeyTool GUI wcale nie umarł. Ukrył się tylko pod innym imieniem 🙂
 
-Portecle, bo tak się nazywa kontynuacja projektu (?), podobnie jak onegdaj KeyTool GUI, jest narzędziem do tworzenia i edycji plikowych magazynów certyfikatów i kluczy. Uogólniając, jest to jakoby nakładka na *Javowe* *keytool.exe*. 
+Portecle, bo tak się nazywa kontynuacja projektu (?), podobnie jak onegdaj KeyTool GUI, jest narzędziem do tworzenia i edycji plikowych magazynów certyfikatów i kluczy. Uogólniając, jest to jakoby nakładka na *Javowe* *keytool.exe*.
 <!--more-->
 Więcej informacji znajdziecie na podlinkowanych stronach:
 

@@ -5,13 +5,13 @@
   --io-secondary-color: #444444;
 
   --io-archive-title-fg-color: #636363;
-  
+
   --io-footer-bg-color: var(--io-secondary-color);
   --io-footer-fg-color: #F2F2F2;
-  
+
   --io-link-color: var(--io-primary-color);
   --io-link-hover-color: var(--io-primary-color);
-  
+
   --io-post-footer-border-color: #EDEDED;
   --io-post-footer-fg-color: #757575;
 
@@ -21,7 +21,7 @@
   --io-post-nav-link-color: var(--io-primary-color);
 
   --io-post-meta-fg-color: #9A9A9A;
-  
+
   --io-widget-bg-color: #F7F7F7;
   --io-widget-fg-color: #636363;
 
