@@ -4,16 +4,23 @@ title: O stronie
 permalink: /o-stronie/
 ---
 
-### Kim jestem
+##### **Kim jestem**
 
 Jestem programistą *Javy* z blisko piętnastoletnim zawodowym doświadczeniem w posługiwaniu się tym językiem. Piszę głównie aplikacje webowe, czasem desktopowe, aplety i biblioteki narzędziowe, choć czasem zdarza mi się również popełnić i inne projekty.
 
 Stronę *Java I/O* założyłem, aby móc dzielić się z Wami różnymi napotkanymi ciekawostkami, związanymi głównie z programowaniem w *Javie*. Znajdzie się jednak zapewne też kilka innych tematów, które będę chciał tu poruszyć. Śledźcie kolejne wpisy, a nuż znajdziecie w nich coś wartego uwagi.
 
 
-### Jakie dane osobiste zbieramy i dlaczego je zbieramy
+##### **Jakie dane osobiste zbieramy i dlaczego je zbieramy**
 
-#### Komentarze
+---
+**Aktualizacja z dnia 14 listopada 2023**
+
+Na dzień dzisiejszy strona została uproszczona do niezbędnego minimum i nie wykorzystuje ciasteczek w żadnej postaci, nie zbiera żadnych statystyk poprzez Google Analytics ani nie wyświela żadnych reklam.
+
+---
+
+<!-- #### Komentarze
 
 Kiedy odwiedzający witrynę zostawia komentarz, zbieramy dane widoczne w formularzu komentowania, jak i adres IP odwiedzającego oraz podpis jego przeglądarki jako pomoc przy wykrywaniu spamu.
 
@@ -36,22 +43,22 @@ Jeśli masz konto i zalogujesz się na tej witrynie, utworzymy tymczasowe ciaste
 
 Podczas logowania tworzymy dodatkowo kilka ciasteczek potrzebnych do zapisu twoich informacji logowania oraz wybranych opcji ekranu. Ciasteczka logowania wygasają po dwóch dniach, a opcji ekranu po roku. Jeśli zaznaczysz opcję „Pamiętaj mnie”, logowanie wygaśnie po dwóch tygodniach. Jeśli wylogujesz się ze swojego konta, ciasteczka logowania zostaną usunięte.
 
-Jeśli zmodyfikujesz albo opublikujesz artykuł, w twojej przeglądarce zostanie zapisane dodatkowe ciasteczko. To ciasteczko nie zawiera żadnych danych osobistych, wskazując po prostu na identyfikator przed chwilą edytowanego artykułu. Wygasa ono po 1 dniu.
+Jeśli zmodyfikujesz albo opublikujesz artykuł, w twojej przeglądarce zostanie zapisane dodatkowe ciasteczko. To ciasteczko nie zawiera żadnych danych osobistych, wskazując po prostu na identyfikator przed chwilą edytowanego artykułu. Wygasa ono po 1 dniu. -->
 
 
-#### Osadzone treści z innych witryn
+###### **Osadzone treści z innych witryn**
 
 Artykuły na tej witrynie mogą zawierać osadzone treści (np. filmy, obrazki, artykuły itp.). Osadzone treści z innych witryn zachowują się analogicznie do tego, jakby użytkownik odwiedził bezpośrednio konkretną witrynę.
 
 Te witryny mogą zbierać informację o tobie, używać ciasteczek, dołączać dodatkowe, zewnętrzne systemy śledzenia i monitorować twoje interakcje z osadzonym materiałem, włączając w to śledzenie twoich interakcji z osadzonym materiałem jeśli posiadasz konto i jesteś zalogowany w tamtej witrynie.
 
 
-#### Analiza statystyk
+<!-- #### Analiza statystyk
 
-Wykorzystuję zanonimizowane dane do analizy ruchu interntetowego na poniższej stronie przy użyciu Google Analytics oraz dostarczania reklam poprzez Google Ads.
+Wykorzystuję zanonimizowane dane do analizy ruchu interntetowego na poniższej stronie przy użyciu Google Analytics oraz dostarczania reklam poprzez Google Ads. -->
 
 
-### Z kim dzielimy się danymi
+<!-- ### Z kim dzielimy się danymi
 
 Dane zebrane podczas wizyt na poniższej stronie nie są udostępniane firmom trzecim.
 
@@ -70,5 +77,4 @@ Jeśli masz konto użytkownika albo dodałeś komentarze w tej witrynie, możesz
 
 ### Gdzie przesyłamy dane
 
-Komentarze gości mogą być sprawdzane za pomocą automatycznej usługi wykrywania spamu.
-
+Komentarze gości mogą być sprawdzane za pomocą automatycznej usługi wykrywania spamu. -->
