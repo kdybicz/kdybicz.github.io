@@ -1,0 +1,56 @@
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">
+      {%- if include.show_link -%}
+        <a class="post-link" href="{{ include.post.url | relative_url }}">
+          {{ include.post.title | escape }}
+        </a>
+      {%- else -%}
+        {{ include.post.title | escape }}
+      {%- endif -%}
+    </h1>
+    <div class="post-meta">
+      <span>
+        <i class="fa-regular fa-user"></i> {{ site.author }}
+      </span>
+      &nbsp;
+      <time class="post-published">
+        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+        <i class="fa-regular fa-calendar"></i> {{ include.post.date | date: date_format }}
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ include.content | markdownify }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-footer-term">
+      {% if include.post.categories.size > 0 %}
+        <span class="term-icon"><i class="fa fa-folder-open"></i></span>
+        {%- for category in include.post.category -%}
+          {% if forloop.index < include.post.category.size %}
+            <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>,
+          {% else %}
+            <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>
+          {% endif %}
+        {%- endfor -%}
+      {% endif %}
+
+      &nbsp;&nbsp;&nbsp;
+
+      {% if include.post.tags.size > 0 %}
+        <span class="term-icon"><i class="fa fa-tags"></i></span>
+        {%- for tag in include.post.tags -%}
+          {% if forloop.index < include.post.tags.size %}
+            <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>,
+          {% else %}
+            <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>
+          {% endif %}
+        {%- endfor -%}
+      {% endif %}
+    </div>
+  </footer>
+</article>
