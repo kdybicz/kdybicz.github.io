@@ -17,11 +17,13 @@
            <ul class="nav ms-auto">
               {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                  <li class="nav-item">
-                    <a class="nav-link menu-item text-white" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | upcase }}</a>
-                  </li>
-                {%- endif -%}
+                <li class="nav-item">
+                  {%- if page.url == my_page.url -%}
+                    <a class="nav-link menu-item-active text-white" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  {%- else -%}
+                    <a class="nav-link menu-item text-white" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  {%- endif -%}
+                </li>
               {%- endfor -%}
            </ul>
         {%- endif -%}

@@ -76,6 +76,13 @@ a:hover {
 
 .menu-item {
   font-size: 0.87rem;
+  text-transform: uppercase;
+}
+
+.menu-item-active {
+  font-size: 0.87rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 
