@@ -2,10 +2,10 @@
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   <nav class="navbar navbar-expand-md navbar-dark header" aria-label="Navigation bar">
-    <div class="container w-75">
+    <div class="container w-70 p-0">
       <span class="nav flex-column">
         <a class="navbar-brand site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-        <p class="navbar-brand site-description mb-3">{{ site.sub_title | escape }}</p>
+        <p class="navbar-brand site-description mb-2">{{ site.sub_title | escape }}</p>
       </span>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">

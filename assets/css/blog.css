@@ -29,6 +29,9 @@
   --io-widget-link-hover-color: var(--io-primary-color);
 }
 
+.w-70 {
+  width: 70%!important;
+}
 
 /*
  * Main styles
