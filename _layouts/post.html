@@ -8,19 +8,19 @@ layout: base
 <nav class="post-navigation" aria-label="Nawigacja wpisu">
   <div class="nav-links row">
     <div class="nav-previous col text-start">
-      {% if page.previous %}
+      {%- if page.previous -%}
         <a href="{{ page.previous.url | relative_url }}" rel="prev">
           <span class="meta-nav"><i class="fa fa-angle-double-left"></i></span> {{ page.previous.title }}
         </a>
-      {% endif %}
+      {%- endif -%}
     </div>
 
     <div class="nav-next col text-end">
-        {% if page.next %}
+        {%- if page.next -%}
           <a href="{{ page.next.url | relative_url }}" rel="next">
             {{ page.next.title }} <span class="meta-nav"><i class="fa fa-angle-double-right"></i></span>
           </a>
-        {% endif %}
+        {%- endif -%}
     </div>
   </div>
 </nav>

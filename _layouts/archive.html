@@ -7,13 +7,13 @@ layout: base
   <h1 class="archive-title mb-0">
     {%- if page.type == "month" -%}
       Monthly Archives: <span>{{ page.date | date: "%B %Y" }}</span>
-    {% else %}
+    {%- else -%}
       {{ page.type }} Archives: <span>{% translate key: {{ page.title }} %}</span>
-    {% endif %}
+    {%- endif -%}
   </h1>
 </header>
 
-{% assign posts = page.posts %}
+{%- assign posts = page.posts -%}
 
 {%- if posts.size > 0 -%}
 

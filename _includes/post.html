@@ -28,29 +28,29 @@
 
   <footer class="post-footer">
     <div class="post-footer-term">
-      {% if include.post.categories.size > 0 %}
+      {%- if include.post.categories.size > 0 -%}
         <span class="term-icon"><i class="fa fa-folder-open"></i></span>
         {%- for category in include.post.category -%}
-          {% if forloop.index < include.post.category.size %}
-            <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>,
-          {% else %}
+          {%- if forloop.index < include.post.category.size -%}
+            <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>,&nbsp;
+          {%- else -%}
             <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>
-          {% endif %}
+          {%- endif -%}
         {%- endfor -%}
-      {% endif %}
+      {%- endif -%}
 
       &nbsp;&nbsp;&nbsp;
 
-      {% if include.post.tags.size > 0 %}
+      {%- if include.post.tags.size > 0 -%}
         <span class="term-icon"><i class="fa fa-tags"></i></span>
         {%- for tag in include.post.tags -%}
-          {% if forloop.index < include.post.tags.size %}
-            <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>,
-          {% else %}
+          {%- if forloop.index < include.post.tags.size -%}
+            <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>,&nbsp;
+          {%- else -%}
             <a href="/tag/{{ tag }}" rel="tag">{% translate key: {{ tag }} %}</a>
-          {% endif %}
+          {%- endif -%}
         {%- endfor -%}
-      {% endif %}
+      {%- endif -%}
     </div>
   </footer>
 </article>

@@ -1,12 +1,12 @@
-{% assign categories = site.categories %}
+{%- assign categories = site.categories -%}
 
 {%- if categories.size > 0 -%}
   <aside class="widget">
     <h4 class="widget-title">Kategorie</h4>
     <ol class="item-list">
-      {% for category in categories %}
+      {%- for category in categories -%}
         <li class="item"><a href="/category/{{ category[0] }}">{% translate key: {{ category | first }} %}</a> ({{ category | last | size }})</li>
-      {% endfor %}
+      {%- endfor -%}
     </ol>
   </aside>
-{% endif %}
+{%- endif -%}
