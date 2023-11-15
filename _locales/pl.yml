@@ -1,0 +1,47 @@
+---
+pl:
+  date:
+    abbr_day_names:
+    - Niedz
+    - Pon
+    - Wt
+    - Śr
+    - Czw
+    - Pt
+    - Sob
+    abbr_month_names:
+    - 
+    - Sty
+    - Lut
+    - Mar
+    - Kwi
+    - Maj
+    - Cze
+    - Lip
+    - Sie
+    - Wrz
+    - Paź
+    - Lis
+    - Gru
+    day_names:
+    - Niedziela
+    - Poniedziałek
+    - Wtorek
+    - Środa
+    - Czwartek
+    - Piątek
+    - Sobota
+    month_names:
+    - 
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień

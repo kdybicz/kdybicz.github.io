@@ -6,7 +6,7 @@ layout: base
 <header class="archive-header">
   <h1 class="archive-title mb-0">
     {%- if page.type == "month" -%}
-      Monthly Archives: <span>{{ page.date | date: "%B %Y" }}</span>
+      Monthly Archives: <span>{{ page.date | localize: "%B %Y" }}</span>
     {%- else -%}
       {{ page.type }} Archives: <span>{% translate key: {{ page.title }} %}</span>
     {%- endif -%}
