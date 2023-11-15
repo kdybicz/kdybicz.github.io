@@ -23,9 +23,9 @@
   --io-post-meta-fg-color: #9A9A9A;
 
   --io-widget-bg-color: #F7F7F7;
-  --io-widget-fg-color: #636363;
+  --io-widget-fg-color: var(--io-secondary-color);
 
-  --io-widget-link-color: #636363;
+  --io-widget-link-color: var(--io-secondary-color);
   --io-widget-link-hover-color: var(--io-primary-color);
 }
 
