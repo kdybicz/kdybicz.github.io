@@ -1,8 +1,8 @@
 ---
 title: JRebel za darmo na 4 miesiące
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - jrebel

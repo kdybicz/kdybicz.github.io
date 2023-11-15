@@ -1,8 +1,8 @@
 ---
 title: Prawidłowe zamykanie okien w Swing'u
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - swing

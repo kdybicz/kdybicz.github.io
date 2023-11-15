@@ -1,8 +1,8 @@
 ---
 title: Numerowanie wersji oprogramowania
 category:
-  - java
   - technologies
+  - java
 tag:
   - ant
   - jar

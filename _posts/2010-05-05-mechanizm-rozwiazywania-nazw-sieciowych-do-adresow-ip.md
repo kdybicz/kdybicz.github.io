@@ -1,8 +1,8 @@
 ---
 title: Mechanizm rozwiązywania nazw sieciowych do adresów IP
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
 permalink: /mechanizm-rozwiazywania-nazw-sieciowych-do-adresow-ip-323.html

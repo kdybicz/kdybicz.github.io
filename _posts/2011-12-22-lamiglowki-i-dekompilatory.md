@@ -1,8 +1,8 @@
 ---
 title: Łamigłówki i dekompilatory
 category:
-  - java
   - technologies
+  - java
 tag:
   - dekompilacja
   - java

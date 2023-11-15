@@ -1,8 +1,8 @@
 ---
 title: Obfuskacja kodu, czyli jak utrudnić życie cracker'om
 category:
-  - java
   - technologies
+  - java
 tag:
   - security
   - java

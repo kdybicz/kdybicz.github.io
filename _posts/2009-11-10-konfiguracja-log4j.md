@@ -1,8 +1,8 @@
 ---
 title: Konfiguracja log4j
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - log4j

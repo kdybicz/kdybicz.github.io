@@ -1,8 +1,8 @@
 ---
 title: Logowanie wybranych pakietów w log4j z poziomu aplikacji
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - log4j

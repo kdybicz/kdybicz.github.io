@@ -1,8 +1,8 @@
 ---
 title: Dekompilacja plików .class
 category:
-  - java
   - technologies
+  - java
 tag:
   - dekompilacja
   - java

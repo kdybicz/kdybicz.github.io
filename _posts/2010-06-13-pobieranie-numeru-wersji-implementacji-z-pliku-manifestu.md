@@ -1,8 +1,8 @@
 ---
 title: Pobieranie numeru wersji implementacji z pliku Manifestu
 category:
-  - java
   - technologies
+  - java
 tag:
   - jar
   - java

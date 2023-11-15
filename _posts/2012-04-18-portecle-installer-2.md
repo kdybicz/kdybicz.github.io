@@ -1,8 +1,8 @@
 ---
 title: Portecle Installer
 category:
-  - java
   - technologies
+  - java
 tag:
   - algorytmy
   - java

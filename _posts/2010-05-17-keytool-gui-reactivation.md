@@ -1,8 +1,8 @@
 ---
 title: "KeyTool GUI: Reactivation"
 category:
-  - java
   - technologies
+  - java
 tag:
   - security
   - free-certificate

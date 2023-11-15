@@ -1,8 +1,8 @@
 ---
 title: Spring… i na wiosnę, i na lato – Część 1
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - spring

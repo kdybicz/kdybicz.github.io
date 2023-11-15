@@ -1,12 +1,23 @@
-{%- assign categories = site.categories -%}
+<!-- {%- assign categories = site.categories -%} -->
 
 {%- if categories.size > 0 -%}
   <aside class="widget">
     <h4 class="widget-title">Kategorie</h4>
-    <ol class="item-list">
+    <!-- <ol class="item-list">
       {%- for category in categories -%}
         <li class="item"><a href="/category/{{ category[0] }}">{% translate key: {{ category | first }} %}</a> ({{ category | last | size }})</li>
       {%- endfor -%}
+    </ol> -->
+    <ol class="item-list">
+      <li class="item"><a href="/category/uncategorized">Bez kategorii</a> (2)</li>
+      <li class="item"><a href="/category/freelancing">Freelancing</a> (1)</li>
+      <li class="item"><a href="/category/technologies">Technologie</a> (33)</li>
+      <ol class="item-list">
+        <li class="item"><a href="/category/ant">Ant</a> (1)</li>
+        <li class="item"><a href="/category/other">Inne</a> (1)</li>
+        <li class="item"><a href="/category/java">Java</a> (27)</li>
+        <li class="item"><a href="/category/web">Sieć</a> (3)</li>
+      </ol>
     </ol>
   </aside>
 {%- endif -%}

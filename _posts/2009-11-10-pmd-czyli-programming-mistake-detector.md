@@ -1,8 +1,8 @@
 ---
 title: PMD, czyli Programming Mistake Detector…
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - testing

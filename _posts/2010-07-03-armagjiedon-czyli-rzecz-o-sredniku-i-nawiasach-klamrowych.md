@@ -1,8 +1,8 @@
 ---
 title: Armagjiedon, czyli rzecz o średniku i nawiasach klamrowych
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
 permalink: /armagjiedon-czyli-rzecz-o-sredniku-i-nawiasach-klamrowych-442.html

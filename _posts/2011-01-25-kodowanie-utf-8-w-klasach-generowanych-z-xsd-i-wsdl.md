@@ -1,8 +1,8 @@
 ---
 title: Kodowanie UTF-8 w klasach generowanych z xsd i wsdl
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - jboss

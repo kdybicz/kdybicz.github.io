@@ -1,8 +1,8 @@
 ---
 title: SwingWorker nie działa!
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - swingworker

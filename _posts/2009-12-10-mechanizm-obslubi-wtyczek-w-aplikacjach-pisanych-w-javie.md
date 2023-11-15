@@ -1,8 +1,8 @@
 ---
 title: Mechanizm obsługi wtyczek w aplikacjach pisanych w Javie
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
 permalink: /mechanizm-obslubi-wtyczek-w-aplikacjach-pisanych-w-javie-89.html

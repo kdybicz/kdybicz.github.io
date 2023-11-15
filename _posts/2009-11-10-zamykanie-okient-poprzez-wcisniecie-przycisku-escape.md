@@ -1,8 +1,8 @@
 ---
 title: Zamykanie okien poprzez wciśnięcie przycisku Escape
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - swing

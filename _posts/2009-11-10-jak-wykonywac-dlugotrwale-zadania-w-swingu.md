@@ -1,8 +1,8 @@
 ---
 title: Jak wykonywać długotrwałe zadania w Swing'u
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - swing

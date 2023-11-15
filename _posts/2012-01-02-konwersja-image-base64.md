@@ -1,8 +1,8 @@
 ---
 title: Konwersja Image Base64
 category:
-  - java
   - technologies
+  - java
 tag:
   - base64
   - image

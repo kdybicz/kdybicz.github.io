@@ -1,8 +1,8 @@
 ---
 title: Zdradliwe komentarze – ku przestrodze
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
 permalink: /zdradliwe-komentarze-ku-przestrodze-289.html

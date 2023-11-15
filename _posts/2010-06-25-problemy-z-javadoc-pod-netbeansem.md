@@ -1,8 +1,8 @@
 ---
 title: Problemy z JavaDoc pod NetBeans'em
 category:
-  - java
   - technologies
+  - java
 tag:
   - ant
   - java

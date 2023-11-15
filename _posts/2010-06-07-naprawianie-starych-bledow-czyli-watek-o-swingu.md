@@ -1,8 +1,8 @@
 ---
 title: Naprawianie starych błędów, czyli wątek o Swingu
 category:
-  - java
   - technologies
+  - java
 tag:
   - edt
   - java

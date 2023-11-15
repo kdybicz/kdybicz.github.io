@@ -33,11 +33,13 @@
   <footer class="post-footer">
     <div class="post-footer-term">
       {%- if post.categories.size > 0 -%}
-        <span class="term-icon"><i class="fa fa-folder-open"></i></span>&nbsp;
-        {%- for category in post.category -%}
+        <span class="term-icon"><i class="fa fa-folder-open"></i></span>
+        <!-- {%- for category in post.category -%}
           <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>
           {%- unless forloop.last -%},&nbsp;{%- endunless -%}
-        {%- endfor -%}
+        {%- endfor -%} -->
+        {%- assign category = post.category | last -%}
+        <a href="/category/{{ category }}" rel="category">{% translate key: {{ category }} %}</a>
       {%- endif -%}
 
       &nbsp;&nbsp;&nbsp;

@@ -1,8 +1,8 @@
 ---
 title: Jak zamknąć JFrame z potwierdzeniem?
 category:
-  - java
   - technologies
+  - java
 tag:
   - java
   - swing
