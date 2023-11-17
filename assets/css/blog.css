@@ -293,3 +293,11 @@ a:hover {
 .copyrights {
   font-size: 0.9rem;
 }
+
+
+/*
+ * Fix for empty line at the end of code highlight
+ */
+pre.highlight pre {
+  margin-bottom: 0;
+}
