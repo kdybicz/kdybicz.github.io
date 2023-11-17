@@ -41,4 +41,4 @@ static { // log4j configuration
 }
 ```
 
-Szczegółowych informacji na temat konfiguracji *log4j'a* możecie szukać na jego [stronie domowej](https://logging.apache.org/log4j/1.2/index.html) lub poprzez [Google](https://www.google.pl/search?hl=pl&amp;q=log4j+configuration).
+Szczegółowych informacji na temat konfiguracji *log4j'a* możecie szukać na jego [stronie domowej](https://logging.apache.org/log4j/1.2/index.html) lub poprzez [Google](https://www.google.pl/search?hl=pl&q=log4j+configuration).

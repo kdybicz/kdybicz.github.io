@@ -13,7 +13,7 @@ modified: 2009-11-12 09:58:11 +00:00
 ---
 
 
-SSL, jak zapewne wiecie (a jeśli nie wiecie, to zapraszam na [Google](https://www.google.pl/search?hl=pl&amp;q=do+czego+s%B3u%BFy+certyfikat+ssl)), służy do zabezpieczenia strony internetowej przed podsłuchiwaniem przesyłanych poprzez nią danych, jak również umożliwia ochronę przed oszustami próbującymi podszyć się pod nasz serwis, pod warunkiem, że nasi odwiedzający wiedzą, że strona nasza zabezpieczona jest certyfikatem i za każdym razem, gdy na nią wchodzą, sprawdzają, czy informacje o takim certyfikacie wyświetlają się w okolicach paska adresu przeglądarki internetowej (np: tak jak na stronach banków). Sam korzystam z certyfikatu SSL, do zabezpieczenia strony logowania i panelu administracyjnego tego blog'a.
+SSL, jak zapewne wiecie (a jeśli nie wiecie, to zapraszam na [Google](https://www.google.pl/search?hl=pl&q=do+czego+s%B3u%BFy+certyfikat+ssl)), służy do zabezpieczenia strony internetowej przed podsłuchiwaniem przesyłanych poprzez nią danych, jak również umożliwia ochronę przed oszustami próbującymi podszyć się pod nasz serwis, pod warunkiem, że nasi odwiedzający wiedzą, że strona nasza zabezpieczona jest certyfikatem i za każdym razem, gdy na nią wchodzą, sprawdzają, czy informacje o takim certyfikacie wyświetlają się w okolicach paska adresu przeglądarki internetowej (np: tak jak na stronach banków). Sam korzystam z certyfikatu SSL, do zabezpieczenia strony logowania i panelu administracyjnego tego blog'a.
 
 <!--more-->
 

@@ -82,7 +82,7 @@ public class DictionaryService {
 
         try {
             Iterator dictionaries = loader.iterator();
-            while (definition == null &amp;amp;&amp;amp; dictionaries.hasNext()) {
+            while (definition == null && dictionaries.hasNext()) {
                 Dictionary d = dictionaries.next();
                 definition = d.getDefinition(word);
             }

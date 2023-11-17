@@ -50,7 +50,7 @@ Numer rewizji wyciągam z *SVN'a* w poniższy sposób (wymaga zainstalowanej kon
         <arg line="/c svn info . --xml > svn_info.xml" />
     </exec>
     <exec executable="/bin/bash" failonerror="false" osfamily="Unix" resultproperty="svnOk">
-        <arg line='-c "svn info --xml &amp;gt; svn_info.xml"' />
+        <arg line='-c "svn info --xml > svn_info.xml"' />
     </exec>
     <if>
         <equals arg1="${svnOk}" arg2="0" />
