@@ -9,10 +9,10 @@
   --io-footer-bg-color: var(--io-secondary-color);
   --io-footer-fg-color: #F2F2F2;
 
-  --io-link-color: var(--io-primary-color);
-  --io-link-hover-color: var(--io-primary-color);
+  --io-link-color: #0099E6;
+  --io-link-hover-color: #0099E6;
 
-  --io-post-content-link-color: #0099E6;
+  --io-post-title-link-color: var(--io-primary-color);
 
   --io-post-footer-border-color: #EDEDED;
   --io-post-footer-fg-color: #757575;
@@ -156,10 +156,6 @@ a:hover {
   line-height: 1.8;
 }
 
-.post-content a {
-  color: var(--io-post-content-link-color);
-}
-
 .post-footer-term {
   border-bottom: 1px solid var(--io-post-footer-border-color);
   border-top: 1px solid var(--io-post-footer-border-color);
@@ -209,6 +205,10 @@ a:hover {
 
 .page-title {
   font-size: 2.2rem;
+}
+
+.post-title a {
+  color: var(--io-post-title-link-color);
 }
 
 .page-header {
