@@ -31,12 +31,12 @@ jekyll-archives:
   enabled: all
   layout: archive
   permalinks:
-    category: '/category/:name/'
-    month: '/date/:year/:month/'
-    tag: '/tag/:name/'
+    category: '/category/:name'
+    month: '/date/:year/:month'
+    tag: '/tag/:name'
 
 paginate: 6
-paginate_path: "/page/:num/"
+paginate_path: "/page/:num"
 
 header_pages:
   - index.html
