@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Linki
-permalink: /links/
+permalink: /links
 ---
 
 

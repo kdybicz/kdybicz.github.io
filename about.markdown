@@ -1,7 +1,7 @@
 ---
 layout: page
 title: O stronie
-permalink: /o-stronie/
+permalink: /o-stronie
 ---
 
 ##### **Kim jestem**
