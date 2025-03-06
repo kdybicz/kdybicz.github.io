@@ -63,6 +63,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+include: [".well-known"]
+
 exclude:
   - .gitignore
   - .sass-cache/
