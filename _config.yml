@@ -65,7 +65,6 @@ plugins:
 
 include: [".well-known"]
 
-
 exclude:
   - .gitignore
   - .sass-cache/
